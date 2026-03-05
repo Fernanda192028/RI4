@@ -1,3 +1,8 @@
 {
-  "type": "module"
+  "name": "ri4",
+  "version": "1.0.0",
+  "description": "Atividade RI4 - Modulos JavaScript",
+  "type": "module",
+  "main": "teste.js",
+  "author": "Fernanda"
 }

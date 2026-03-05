@@ -1,6 +1,5 @@
-// =====================
-// CLASSE CLIENTE
-// =====================
+// Objetivo 1
+
 export class Cliente {
     #cpf
 
@@ -28,9 +27,6 @@ export class Cliente {
     }
 }
 
-// =====================
-// CLASSE TELEFONE
-// =====================
 export class Telefone {
     constructor(ddd, numero) {
         this.ddd = ddd
@@ -42,9 +38,6 @@ export class Telefone {
     }
 }
 
-// =====================
-// CLASSE ENDERECO
-// =====================
 export class Endereco {
     constructor(estado, cidade, rua, numero) {
         this.estado = estado
@@ -62,9 +55,6 @@ export class Endereco {
     }
 }
 
-// =====================
-// CLASSE EMPRESA
-// =====================
 export class Empresa {
     #cnpj
 
@@ -99,9 +89,10 @@ export class Empresa {
 
     // OBJETIVO 3
     detalhe() {
+        
         let info = `Razão Social: ${this.razaoSocial}\n`
         info += `Nome Fantasia: ${this.nomeFantasia}\n`
-        
+        console.log("=)")
          info += `------------------------------------\n`
         
 
@@ -115,5 +106,6 @@ export class Empresa {
         })
 
         return info
+        
     }
 }
