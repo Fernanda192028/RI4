@@ -15,23 +15,23 @@ minhaEmpresa.adicionarTelefone(new Telefone("12", "39412000"))
 //Cliente 1
 const c1 = new Cliente(
     "Noah Conrado",
-    "111.111.111-11",
+    "481.251.121-61",
     new Endereco("SP", "SJC", "Rua Tiradentes", "10")
 )
 
-c1.adicionarTelefone(new Telefone("12", "991110001"))
-c1.adicionarTelefone(new Telefone("12", "39110001"))
+c1.adicionarTelefone(new Telefone("12", "39411000"))
+c1.adicionarTelefone(new Telefone("12", "39412000"))
 
 minhaEmpresa.adicionarCliente(c1)
 
 // Cliente 2
 const c2 = new Cliente(
     "Maria Eduarda",
-    "222.222.222-22",
+    "902.657.123-22",
     new Endereco("MG", "BH", "Rua Ouro Preto", "20")
 )
 
-c2.adicionarTelefone(new Telefone("31", "992220002"))
+c2.adicionarTelefone(new Telefone("12", "91210001"))
 c2.adicionarTelefone(new Telefone("31", "32220002"))
 
 minhaEmpresa.adicionarCliente(c2)
@@ -39,7 +39,7 @@ minhaEmpresa.adicionarCliente(c2)
 // Cliente 3
 const c3 = new Cliente(
     "Ana Beatriz",
-    "333.333.333-33",
+    "143.893.126-33",
     new Endereco("RJ", "Rio", "Rua Santa Carla", "30")
 )
 
@@ -52,7 +52,7 @@ minhaEmpresa.adicionarCliente(c3)
 //Cliente 4
 const c4 = new Cliente(
     "Lucas Oliveira",
-    "444.444.444-44",
+    "482.238.098-44",
     new Endereco("PR", "Curitiba", "Rua Florência", "40")
 )
 
@@ -61,11 +61,11 @@ c4.adicionarTelefone(new Telefone("41", "33440004"))
 
 minhaEmpresa.adicionarCliente(c4)
 
-
+//  ;) 
 // Cliente 5
 const c5 = new Cliente(
     "Carla Souza",
-    "555.555.555-55",
+    "534.472.328-55",
     new Endereco("SC", "Floripa", "Rua Santo Antônio", "50")
 )
 
